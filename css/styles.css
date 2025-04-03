@@ -83,7 +83,6 @@ img {
     width: 261px;
     margin-right: 332px;
     gap: 40px;
-    padding: 24px 0;
    }
 .social a {
     color: #2e2f42;
@@ -91,8 +90,7 @@ img {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    display: block;
-            
+    padding: 24px 0; 
     }
 .social a:hover {
     color: #404bbf;
@@ -133,7 +131,7 @@ background-color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center; 
     color: #fff; 
-    width: 496px;
+    max-width: 496px;
 }
 .title-button {
     box-sizing: border-box;
@@ -277,7 +275,7 @@ padding: 120px 0;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+  
 }
 .portfolio-name {
     font-weight: 500;
@@ -285,6 +283,7 @@ padding: 120px 0;
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text{
     font-size: 16px;
@@ -297,7 +296,11 @@ padding: 120px 0;
     background: #2e2f42;
     display: flex;
     padding: 100px 0;
-}  
+} 
+.item a {
+   display: inline-block;
+    margin-bottom: 16px;
+} 
 .item-logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -306,8 +309,7 @@ padding: 120px 0;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
-        display: inline-block;
-        margin-bottom: 16px;
+       
 }
 .item-text{
     line-height: 1.50;
