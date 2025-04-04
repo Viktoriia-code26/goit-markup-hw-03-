@@ -1,6 +1,11 @@
 *::before, *::after {
     box-sizing: border-box;
 }
+.container {
+width: 1158px;
+padding: 0 15px;
+margin: auto;
+}
 /* body */
 body {
     font-family: "Roboto", sans-serif;
@@ -10,16 +15,10 @@ body {
     font-style: normal;
     font-size: 16px;
 }
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 1440px;
-}
 
 h1, h2, h3 {
     margin: 0;
-}
+}w
 p {
     margin: 0;
 }
@@ -57,6 +56,7 @@ img {
 .heder-social {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -80,8 +80,6 @@ img {
     } 
 .social {
     display: flex;
-    width: 261px;
-    margin-right: 332px;
     gap: 40px;
    }
 .social a {
@@ -91,6 +89,7 @@ img {
     line-height: 1.50;
     letter-spacing: 0.02em;
     padding: 24px 0; 
+    display: block;
     }
 .social a:hover {
     color: #404bbf;
@@ -132,6 +131,9 @@ background-color: #2e2f42;
     text-align: center; 
     color: #fff; 
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 .title-button {
     box-sizing: border-box;
@@ -149,6 +151,8 @@ background-color: #2e2f42;
     min-width: 169px;
     height: 56px;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-button:hover {
@@ -182,8 +186,7 @@ background-color: #2e2f42;
     
 }
 .future-set {
-    display: block;  
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 .future-title {
     font-weight: 500;
@@ -226,7 +229,7 @@ padding: 120px 0;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 .team-man {
     padding: 32px 0;
@@ -301,6 +304,16 @@ padding: 120px 0;
    display: inline-block;
     margin-bottom: 16px;
 } 
+.logo-foter {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    object-fit: cover;
+}
 .item-logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
