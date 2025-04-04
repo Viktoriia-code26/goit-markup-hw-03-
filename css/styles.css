@@ -43,15 +43,12 @@ img {
     list-style: none;
   }
 /* header */
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .page-header .container {
     display: flex;
     align-items: center;
-    padding: 0 15px;
-    margin: 0 auto;
-    width: 1158px;
-}
-.page-header {
-    border-bottom: 1px solid #e7e9fc;
 }
 .heder-social {
     display: flex;
